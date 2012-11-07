@@ -1,8 +1,8 @@
 GROUPDOCS Annotation
 
-GroupDocs Annotation plugin for eZ Publish
+GroupDocs Annotation plugin for ez Publish
 
-With GroupDocs Annotation plugin for eZ Publish you can easily view on website PDF's, Word documents, Excel documents, Powerpoint documents and more with the GroupDocs Annotation tool, directly from within your eZ Publish website.
+With GroupDocs Annotation plugin for ez Publish you can easily view on website PDF's, Word documents, Excel documents, Powerpoint documents and more with the GroupDocs Annotation tool, directly from within your ez Publish website.
 
 
 INSTALLATION
@@ -18,7 +18,7 @@ Sign, Manage, Annotate, Assemble, Compare and Convert Documents with GroupDocs
 
     Annotate PDF, Word, Excel, Powerpoint and Images with GroupDocs Annotation
     Download Annotation plugin package here
-    Embed DOC, DOCX, PDF Annotation in your eZ Publish website
-    See source code for GroupDocs Annotation plugin for eZ Publish
+    Embed DOC, DOCX, PDF Annotation in your ez Publish website
+    See source code for GroupDocs Annotation plugin for ez Publish
 
 Created by GroupDocs Marketplace Team.
