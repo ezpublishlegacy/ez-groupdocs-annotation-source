@@ -3230,7 +3230,7 @@ jQuery.removeEvent = document.removeEventListener ?
 
 		if ( elem.detachEvent ) {
 
-			// #8545, #7054, preventing memory leaks for custom events in IE6-8 –
+			// #8545, #7054, preventing memory leaks for custom events in IE6-8 ï¿½
 			// detachEvent needed property on element, by name of that event, to properly expose it to GC
 			if ( typeof elem[ name ] === "undefined" ) {
 				elem[ name ] = null;
@@ -9316,7 +9316,9 @@ $(function(){
 					var file_id = val[0];
 					var width = val[1];
 					var height = val[2];
-					var iframe = '<iframe src="http://apps.groupdocs.com/document-annotation/embed/'+file_id+'" frameborder="0" width="'+width+'" height="'+height+'"></iframe>';
+                    var cmsName = 'ezPublish'
+                    var cmsVersion = '4.3.0'
+					var iframe = '<iframe src="http://apps.groupdocs.com/document-annotation/embed/'+file_id+'?&referer='+cmsName+'/'+cmsVersion+'" frameborder="0" width="'+width+'" height="'+height+'"></iframe>';
 					var re = new RegExp(key,"gi");
 					$('#main').html( $('#main').html().replace(re,iframe) );
 				});

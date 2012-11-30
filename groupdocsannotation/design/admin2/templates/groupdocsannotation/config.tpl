@@ -67,8 +67,10 @@ Actions
     }
 
 	function Avew(afileid){
+        cmsName = 'ezPublish'
+        cmsVersion = '4.3.0'
 		myWindow=window.open('','','width=500,height=300')
-		myWindow.document.write('<iframe src="http://apps.groupdocs.com/document-annotation/embed/'+afileid+'" frameborder="0" width="100%" height="100%"></iframe>')
+		myWindow.document.write('<iframe src="http://apps.groupdocs.com/document-annotation/embed/'+afileid+'?&referer='+cmsName+'/'+cmsVersion+'" frameborder="0" width="100%" height="100%"></iframe>')
 	}
 -->
 </script>

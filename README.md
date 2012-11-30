@@ -21,3 +21,7 @@ With GroupDocs Annotation plugin for ezPublish you can easily view on [annotate 
 * [See source code for GroupDocs Annotation plugin for Radiant CMS](https://github.com/groupdocs/radiant-groupdocs-annotation-source)
 
 ###Created by [GroupDocs Marketplace Team](http://groupdocs.com/marketplace/).
+
+###ChangeLog
+2012-11-30
+1.  Client CMS name tracking was added(referer parameter in the URL).
