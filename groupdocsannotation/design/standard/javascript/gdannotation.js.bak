@@ -3230,7 +3230,7 @@ jQuery.removeEvent = document.removeEventListener ?
 
 		if ( elem.detachEvent ) {
 
-			// #8545, #7054, preventing memory leaks for custom events in IE6-8 –
+			// #8545, #7054, preventing memory leaks for custom events in IE6-8 ï¿½
 			// detachEvent needed property on element, by name of that event, to properly expose it to GC
 			if ( typeof elem[ name ] === "undefined" ) {
 				elem[ name ] = null;
@@ -9316,7 +9316,7 @@ $(function(){
 					var file_id = val[0];
 					var width = val[1];
 					var height = val[2];
-					var iframe = '<iframe src="http://apps.groupdocs.com/document-viewer/embed/'+file_id+'" frameborder="0" width="'+width+'" height="'+height+'"></iframe>';
+					var iframe = '<iframe src="http://apps.groupdocs.com/document-viewer/embed/'+file_id+'" frameborder="0" width="'+width+'" height="'+height+'">If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browsers such as Mozilla FireFox or Google Chrome. Learn how to <a href="http://groupdocs.com/apps/annotation">annotate pdf</a> files online with GroupDocs.</iframe>';
 					var re = new RegExp(key,"gi");
 					$('#main').html( $('#main').html().replace(re,iframe) );
 				});

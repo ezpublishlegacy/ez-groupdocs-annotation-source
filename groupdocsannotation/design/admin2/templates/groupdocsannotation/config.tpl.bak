@@ -68,7 +68,7 @@ Actions
 
 	function Avew(afileid){
 		myWindow=window.open('','','width=500,height=300')
-		myWindow.document.write('<iframe src="http://apps.groupdocs.com/document-annotation/embed/'+afileid+'" frameborder="0" awidth="100%" aheight="100%"></iframe>')
+		myWindow.document.write('<iframe src="http://apps.groupdocs.com/document-annotation/embed/'+afileid+'" frameborder="0" awidth="100%" aheight="100%">If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browsers such as Mozilla FireFox or Google Chrome. Learn how to <a href="http://groupdocs.com/apps/annotation">annotate pdf</a> files online with GroupDocs.</iframe>')
 	}
 -->
 </script>
