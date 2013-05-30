@@ -70,7 +70,7 @@ Actions
         cmsName = 'ezPublish-Annotation'
         cmsVersion = '1.0'
 		myWindow=window.open('','','width=500,height=300')
-		myWindow.document.write('<iframe src="http://apps.groupdocs.com/document-annotation/embed/'+afileid+'?&referer='+cmsName+'/'+cmsVersion+'" frameborder="0" width="100%" height="100%">If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browsers such as Mozilla FireFox or Google Chrome. Learn how to <a href="http://groupdocs.com/apps/annotation">annotate pdf</a> files online with GroupDocs.</iframe>')
+		myWindow.document.write('<iframe src="http://apps.groupdocs.com/document-annotation/embed/'+afileid+'?&referer='+cmsName+'/'+cmsVersion+'" frameborder="0" width="100%" height="100%">If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browser such as Mozilla Firefox or Google Chrome. For more help, please check our documentation Wiki: http://groupdocs.com/docs/display/annotation/GroupDocs+Annotation+Integration+with+3rd+Party+Platforms</iframe>')
 	}
 -->
 </script>
